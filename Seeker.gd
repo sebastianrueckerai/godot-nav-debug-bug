@@ -6,7 +6,7 @@ var velocity: Vector3 = Vector3.ZERO
 var direction : Vector3 = Vector3.ZERO
 
 onready var navigation_agent = $NavigationAgent
-onready var target = get_parent().get_node("Target")
+onready var target = $"%Target"
 
 func _ready():
 	navigation_agent.set_target_location(target.global_transform.origin)

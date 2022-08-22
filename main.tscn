@@ -24,7 +24,7 @@ data = PoolVector3Array( 0, 0, 1.5, 0, 0, 1.5, 0, -0.1736, 1.4848, 0, 0, 1.5, 0.
 [sub_resource type="SpatialMaterial" id=8]
 albedo_color = Color( 0.352941, 0.0666667, 0.0666667, 1 )
 
-[node name="Spatial" type="Spatial"]
+[node name="World" type="Spatial"]
 
 [node name="Navigation" type="Navigation" parent="."]
 
